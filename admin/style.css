@@ -1,0 +1,177 @@
+
+/* admin box */
+.box1 {
+    background:white;
+    width:1000px;
+  	height:100px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+    padding-bottom: 20px
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+/* admin icon */
+.image {
+    flex-basis: 12%;
+    margin-left: 20px;}
+
+h6{
+   text-align: right;
+   margin-left: 700px;
+   margin-top: 0px;
+   color: #DB1F48;}
+
+h2{
+  color: #055C9D;
+  font-family: monospace;}
+
+.text {
+    position: absolute;
+    font-size: 20px;
+    margin-left:150px;}
+
+    /* hr line */
+    .line
+    {
+      margin-top: 90px;
+      margin-left: 280px;
+      position: absolute;
+      width:60%;
+    }
+
+    /*log out icon*/
+    .log{
+      position: absolute;
+      right: 20px;
+    }
+  /* Add a white background color to the top navigation */
+  .topnav {
+    background-color: White;
+    overflow: hidden;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    font-family: monospace;
+    font-weight: bold;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: grey;
+    color: white;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav .active {
+    background-color: grey;
+    color: white;
+  }
+
+  html, body {
+    justify-content: center;
+    height: 100%;
+  }
+
+  body, div, form, input{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+  }
+  /* form box */
+  .main-block {
+    max-width: 700px;
+    min-height: 40px;
+    padding: 20px 0;
+    margin: auto;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+    background: #EDF1F2;
+  }
+
+  form {
+    margin: 0 40px;
+  }
+
+  /* all form labels */
+  #productLabel {
+    margin: 0px 0px;
+    border-radius: 5px 0 0 5px;
+    display: inline-block;
+    padding: 9.3px 15px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    background: #05445E;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+  }
+/* all input boxes */
+  input[type=text], input[type="file"], input[type="number"], input[type="search"], textarea {
+    width: calc(100% - 57px);
+    height: 36px;
+    margin: 0px 30px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-radius: 0 5px 5px 0;
+    border: solid 1px #cbc9c9;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    background: white;
+  }
+  /*table*/
+  .t1{
+  width: 100%;
+  background-color: #9abcda;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  color: #ffffff;
+  }
+
+  td, th{
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 3px;
+  }
+
+  thead {
+    background-color: #056b9e;
+  }
+
+/* buttons div */
+  .btn-block {
+    margin-top: 10px;
+    text-align: center;
+  }
+  button {
+    width: 30%;
+    padding: 10px 5px;
+    margin: 10px auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: none;
+    background: #f27d2d;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff; }
+
+  button:hover {
+    background: Grey; }
